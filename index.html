@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibilità Locale - Più prenotazioni per ristoranti in Toscana</title>
+    <meta name="description" content="Siti web e visibilità Google per ristoranti, agriturismi e B&B in Toscana. Più prenotazioni dirette via WhatsApp in pochi giorni.">
+    <meta name="keywords" content="sito web ristorante Toscana, siti web ristoranti Italia, web design ristoranti, sito web agriturismo, B&B website, prenotazioni online ristorante, Google Maps ristorante, SEO ristorante locale">
+    <meta name="author" content="Visibilità Locale">
+    <meta property="og:title" content="Visibilità Locale - Più prenotazioni per ristoranti in Toscana">
+    <meta property="og:description" content="Più prenotazioni senza stress tecnico. Siti web e visibilità Google per ristoranti in Toscana.">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+<!-- EmailJS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DFC4TW79CX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-DFC4TW79CX');
+  
+  // Custom events voor lead tracking
+  function trackFormSubmit(formType) {
+    gtag('event', 'form_submit', {
+      'form_type': formType,
+      'page_location': window.location.href
+    });
+  }
+  
+  function trackWhatsAppClick(source) {
+    gtag('event', 'whatsapp_click', {
+      'source': source,
+      'page_location': window.location.href
+    });
+  }
+  
+  function trackPhoneCall() {
+    gtag('event', 'phone_call', {
+      'page_location': window.location.href
+    });
+  }
+</script>
+
+    <!-- Enhanced Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.visibilitalocale.it/#organization",
+          "name": "Visibilità Locale",
+          "url": "https://www.visibilitalocale.it/",
+          "logo": "https://www.visibilitalocale.it/logo.png",
+          "image": "https://www.visibilitalocale.it/logo.png",
+          "description": "Specialisti in siti web professionali per ristoranti, agriturismi e B&B in Toscana. Aumentiamo le prenotazioni online con soluzioni digitali su misura.",
+          "foundingDate": "2020",
+          "email": "info@visibilitalocale.it",
+          "telephone": "+393123456789",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Firenze",
+            "addressRegion": "Toscana",
+            "addressCountry": "IT"
+          },
+          "sameAs": [
+            "https://www.facebook.com/VisibilitaLocale",
+            "https://www.instagram.com/VisibilitaLocale"
+          ],
+          "areaServed": [
+            {
+              "@type": "State",
+              "name": "Toscana"
+            }
+          ]
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://www.visibilitalocale.it/#localbusiness",
+          "name": "Visibilità Locale - Siti Web per Ristoranti",
+          "image": "https://www.visibilitalocale.it/images/hero.jpeg",
+          "telephone": "+393123456789",
+          "email": "info@visibilitalocale.it",
+          "url": "https://www.visibilitalocale.it/",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Roma 123",
+            "addressLocality": "Firenze",
+            "postalCode": "50100",
+            "addressRegion": "Toscana",
+            "addressCountry": "IT"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "43.7696",
+            "longitude": "11.2558"
+          },
+          "openingHours": [
+            "Mo-Fr 09:00-18:00"
+          ],
+          "priceRange": "€€",
+          "currenciesAccepted": "EUR",
+          "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
+          "description": "Realizziamo siti web professionali per ristoranti, agriturismi e B&B in Toscana. Servizi completi: design responsivo, prenotazioni WhatsApp, SEO locale e ottimizzazione Google Maps per aumentare la visibilità online.",
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servizi Web per Ristoranti",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Solo Sito Web",
+                  "description": "Sito web professionale con hosting incluso"
+                },
+                "price": "349",
+                "priceCurrency": "EUR"
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service", 
+                  "name": "Sito + Visibilità",
+                  "description": "Sito web completo con SEO locale e Google My Business"
+                },
+                "price": "499",
+                "priceCurrency": "EUR"
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Solo Visibilità", 
+                  "description": "Ottimizzazione SEO per sito esistente"
+                },
+                "price": "249",
+                "priceCurrency": "EUR"
+              }
+            ]
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "35",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Marco Benedetti"
+              },
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              },
+              "datePublished": "2024-12-15",
+              "reviewBody": "In una settimana avevo già il mio nuovo sito web professionale. Le prenotazioni sono raddoppiate e ora appariamo primi su Google. Investimento ripagato in meno di un mese! Servizio eccellente e risultati concreti."
+            },
+            {
+              "@type": "Review", 
+              "author": {
+                "@type": "Person",
+                "name": "Sofia Rossi"
+              },
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              },
+              "datePublished": "2024-11-20",
+              "reviewBody": "Incredibile! In soli due giorni avevo il mio nuovo sito web e le prenotazioni sono triplicate. Il team di Visibilità Locale sa davvero come far crescere un ristorante online. Consigliatissimo!"
+            }
+          ],
+          "serviceArea": [
+            {
+              "@type": "City",
+              "name": "Firenze"
+            },
+            {
+              "@type": "City", 
+              "name": "Siena"
+            },
+            {
+              "@type": "City",
+              "name": "Pisa"
+            },
+            {
+              "@type": "City",
+              "name": "Lucca"
+            },
+            {
+              "@type": "City",
+              "name": "Arezzo"
+            },
+            {
+              "@type": "City",
+              "name": "Volterra"
+            },
+            {
+              "@type": "City",
+              "name": "San Gimignano"
+            },
+            {
+              "@type": "City",
+              "name": "Montalcino"
+            }
+          ],
+          "knowsAbout": [
+            "Web Design per Ristoranti",
+            "SEO Locale",
+            "Google My Business",
+            "Marketing Digitale Ristorazione",
+            "Prenotazioni Online",
+            "Siti Web Responsive"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.visibilitalocale.it/#webpage",
+          "url": "https://www.visibilitalocale.it/",
+          "name": "Visibilità Locale - Più prenotazioni per ristoranti in Toscana",
+          "description": "Siti web e visibilità Google per ristoranti, agriturismi e B&B in Toscana. Più prenotazioni dirette via WhatsApp in pochi giorni.",
+          "inLanguage": "it-IT",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://www.visibilitalocale.it/#website"
+          },
+          "about": {
+            "@id": "https://www.visibilitalocale.it/#organization"
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://www.visibilitalocale.it/images/hero.jpeg"
+          },
+          "datePublished": "2024-01-01",
+          "dateModified": "2025-01-17"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.visibilitalocale.it/#website", 
+          "url": "https://www.visibilitalocale.it/",
+          "name": "Visibilità Locale",
+          "description": "Siti web professionali per la ristorazione italiana",
+          "publisher": {
+            "@id": "https://www.visibilitalocale.it/#organization"
+          },
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://www.visibilitalocale.it/?s={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "it-IT"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.visibilitalocale.it/#faqpage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quanto tempo ci vuole per vedere risultati concreti?",
+              "acceptedAnswer": {
+                "@type": "Answer", 
+                "text": "I primi risultati sono visibili entro 7-14 giorni. Il tuo sito sarà online e ottimizzato per Google entro una settimana, mentre le prenotazioni via WhatsApp iniziano tipicamente dalla seconda settimana. Risultati significativi (+40% prenotazioni) si vedono entro 30 giorni."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Il vostro servizio funziona per ristoranti piccoli in città toscane?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Assolutamente sì! I ristoranti in città più piccole spesso ottengono risultati ancora migliori perché c'è meno concorrenza online. Abbiamo aiutato ristoranti a Volterra, Montalcino, Castiglione della Pescaia e molte altre città toscane."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Come funziona il sistema di prenotazioni WhatsApp?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Integriamo pulsanti WhatsApp strategici nel tuo sito con messaggi precompilati. Quando un cliente clicca 'Prenota', si apre WhatsApp con un messaggio già pronto. Semplice per il cliente, immediato per te."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- Accessibility: Skip to content -->
+    <style>
+      .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #000;
+        color: #fff;
+        padding: 8px;
+        z-index: 100;
+        transition: top 0.3s;
+      }
+      .skip-link:focus {
+        top: 0;
+      }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9IiNFMjcyNUIiLz4KPHN2ZyB4PSI4IiB5PSI4IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxwYXRoIGQ9Ik0yMSAxMGMwIDctOSAxMy05IDEzcy05LTYtOS0xM2E5IDkgMCAwIDEgMTggMHoiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+CjxjaXJjbGUgY3g9IjEyIiBjeT0iMTAiIHI9IjMiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo8L3N2Zz4=" alt="Visibilità Locale Logo" class="logo-image">
+                    <h1>Visibilità Locale</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#servizi" class="nav-link">Servizi</a></li>
+                        <li><a href="#esempio" class="nav-link">Esempio</a></li>
+                        <li><a href="#chi-siamo" class="nav-link">Chi siamo</a></li>
+                        <li><a href="#contatto" class="nav-link">Contatto</a></li>
+                        <li><a href="https://www.visibilitalocale.it/blogs.html" class="nav-link">Blog</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <ul class="mobile-nav-list">
+            <li><a href="#home" class="mobile-nav-link">Home</a></li>
+            <li><a href="#servizi" class="mobile-nav-link">Servizi</a></li>
+            <li><a href="#esempio" class="mobile-nav-link">Esempio</a></li>
+            <li><a href="#chi-siamo" class="mobile-nav-link">Chi siamo</a></li>
+            <li><a href="#contatto" class="mobile-nav-link">Contatto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero animate-on-scroll">
+      <div class="hero-overlay">
+        <div class="container">
+          <div class="hero-content">
+            <h2 class="hero-title">Più prenotazioni per il tuo ristorante in Toscana — senza stress tecnico</h2>
+            <p class="hero-subtitle">Creiamo siti web e visibilità Google che portano clienti reali nel tuo locale. Attivo in pochi giorni, prenotazioni dirette via WhatsApp.</p>
+                    <a href="https://wa.me/+393123456789" class="cta-button" target="_blank" rel="noopener" onclick="trackWhatsAppClick('hero')">
+                        <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.520.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.893 3.106"/>
+                        </svg>
+                        Parla con noi su WhatsApp
+                    </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servizi" class="services animate-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Cosa facciamo</h2>
+            <p class="services-intro">Aiutiamo ristoranti, agriturismi e B&B in Toscana a essere trovati su Google e a ricevere più prenotazioni ogni settimana. Pensiamo noi a tutto: sito web professionale, visibilità su Google Maps, contatti e prenotazioni via WhatsApp. Tu pensi solo al tuo locale.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Sito web moderno</h3>
+                    <p class="service-description">Un sito professionale che trasforma i visitatori in clienti e porta più prenotazioni dirette.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Prenotazioni via WhatsApp</h3>
+                    <p class="service-description">Più chiamate e messaggi in pochi secondi, con prenotazioni semplici e immediate.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Ottimizzazione Google Maps</h3>
+                    <p class="service-description">Appari nelle ricerche locali e su Google Maps per attirare più clienti nella tua zona.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Supporto continuo</h3>
+                    <p class="service-description">Supporto continuo per mantenere risultati costanti e un sito sempre rapido e aggiornato.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO Audit Tool Section -->
+    <section id="seo-audit" class="seo-audit-section animate-on-scroll">
+        <div class="container">
+            <div class="seo-audit-content">
+                <div class="seo-audit-text">
+                    <h2>🔍 Scopri se il tuo ristorante è visibile su Google</h2>
+                    <p>In 30 secondi capisci se il tuo locale viene trovato quando cercano "ristorante [tua città]".</p>
+                    <ul class="audit-benefits">
+                        <li>✅ Analisi posizione Google in tempo reale</li>
+                        <li>✅ Check presenza Google My Business</li>
+                        <li>✅ Verifica velocità sito web</li>
+                        <li>✅ Report personalizzato + suggerimenti</li>
+                    </ul>
+                </div>
+                
+                <div class="seo-audit-tool">
+                    <div class="audit-form">
+                        <h3>Analisi rapida gratuita</h3>
+                        <form id="seoAuditForm" class="audit-form-fields">
+                            <div class="form-group">
+                                <label for="restaurant-website">Sito Web del Ristorante</label>
+                                <input type="url" id="restaurant-website" name="website" placeholder="https://tuoristorante.it" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="restaurant-name">Nome del Ristorante</label>
+                                <input type="text" id="restaurant-name" name="restaurant" placeholder="Es: Trattoria da Giuseppe" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="restaurant-city">Città</label>
+                                <select id="restaurant-city" name="city" required>
+                                    <option value="">Seleziona città...</option>
+                                    <option value="firenze">Firenze</option>
+                                    <option value="siena">Siena</option>
+                                    <option value="pisa">Pisa</option>
+                                    <option value="lucca">Lucca</option>
+                                    <option value="arezzo">Arezzo</option>
+                                    <option value="grosseto">Grosseto</option>
+                                    <option value="livorno">Livorno</option>
+                                    <option value="pistoia">Pistoia</option>
+                                    <option value="prato">Prato</option>
+                                    <option value="volterra">Volterra</option>
+                                    <option value="san-gimignano">San Gimignano</option>
+                                    <option value="montalcino">Montalcino</option>
+                                    <option value="castiglione-della-pescaia">Castiglione della Pescaia</option>
+                                    <option value="altra">Altra città</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="restaurant-email">Email (per ricevere il report)</label>
+                                <input type="email" id="restaurant-email" name="email" placeholder="tuo@email.it" required>
+                            </div>
+                            
+                            <button type="submit" class="audit-submit-btn" id="auditSubmitBtn">
+                                <span class="btn-text">🔍 Scopri la tua visibilità</span>
+                                <span class="btn-loading" style="display: none;">
+                                    <svg class="loading-spinner" viewBox="0 0 24 24">
+                                        <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="31.416" stroke-dashoffset="31.416">
+                                            <animate attributeName="stroke-dasharray" dur="2s" values="0 31.416;15.708 15.708;0 31.416" repeatCount="indefinite"/>
+                                            <animate attributeName="stroke-dashoffset" dur="2s" values="0;-15.708;-31.416" repeatCount="indefinite"/>
+                                        </circle>
+                                    </svg>
+                                    Analisi in corso...
+                                </span>
+                            </button>
+                        </form>
+                        
+                        <!-- Results Display -->
+                        <div id="auditResults" class="audit-results" style="display: none;">
+                            <h4>📊 Risultati Analisi SEO</h4>
+                            <div class="results-grid">
+                                <div class="result-item">
+                                    <div class="result-label">Posizione Google:</div>
+                                    <div class="result-value" id="googleRanking">--</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-label">Google My Business:</div>
+                                    <div class="result-value" id="gmbStatus">--</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-label">Velocità Sito:</div>
+                                    <div class="result-value" id="siteSpeed">--</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-label">SEO Score:</div>
+                                    <div class="result-value" id="seoScore">--</div>
+                                </div>
+                            </div>
+                            
+                            <div class="audit-cta">
+                                <p class="audit-message" id="auditMessage"></p>
+                                <a href="https://wa.me/+393123456789" class="audit-whatsapp-btn" target="_blank" id="auditWhatsAppBtn">
+                                    <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.670.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.520.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.893 3.106"/>
+                                    </svg>
+                                    Ricevi Report Completo su WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="packages animate-on-scroll">
+      <div class="container">
+        <h2 class="section-title">I nostri pacchetti</h2>
+        <div class="packages-grid">
+
+          <div class="package-card">
+            <h3>Solo Sito Web</h3>
+            <p>Il tuo sito moderno e professionale, pronto in pochi giorni – senza stress tecnico.</p>
+            <ul>
+              <li>Design professionale</li>
+              <li>1 anno di hosting incluso</li>
+              <li>Consegna entro 5 giorni</li>
+            </ul>
+            <p><strong>€349</strong> (una tantum)</p>
+            <a href="https://wa.me/+393123456789?text=Salve,%20sono%20interessato%20al%20pacchetto%20'Solo%20Sito%20Web'" class="cta-button" onclick="trackWhatsAppClick('packages-solo')">Voglio più prenotazioni</a>
+          </div>
+
+          <div class="package-card highlight">
+            <h3>Sito + Visibilità</h3>
+            <p>Il nostro pacchetto completo: sito web, prenotazioni e visibilità garantita su Google.</p>
+            <ul>
+              <li>Sito ottimizzato + SEO locale</li>
+              <li>Registrazione su Google Business</li>
+              <li>Sistema prenotazioni via WhatsApp</li>
+            </ul>
+            <p><strong>€499</strong> (anziché €549)</p>
+            <a href="https://wa.me/+393123456789?text=Salve,%20vorrei%20attivare%20il%20pacchetto%20'Sito%20+%20Visibilità'" class="cta-button secondary" onclick="trackWhatsAppClick('packages-complete')">Voglio più prenotazioni</a>
+          </div>
+
+          <div class="package-card">
+            <h3>Solo Visibilità</h3>
+            <p>Hai già un sito? Ti aiutiamo a portarlo in alto su Google e attrarre più clienti.</p>
+            <ul>
+              <li>Analisi SEO del sito esistente</li>
+              <li>Ottimizzazione SEO + Google Maps</li>
+              <li>Strategia social su misura</li>
+            </ul>
+            <p><strong>€249</strong> (una tantum)</p>
+            <a href="https://wa.me/+393123456789?text=Buongiorno,%20sono%20interessato%20al%20pacchetto%20'Solo%20Visibilità'" class="cta-button" onclick="trackWhatsAppClick('packages-seo')">Voglio più prenotazioni</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="local-coverage animate-on-scroll">
+        <div class="container">
+            <h2 class="coverage-title">Siti web per ristoranti a Firenze</h2>
+            <p class="coverage-text">Aiutiamo i locali di Firenze a essere trovati su Google e a ricevere più prenotazioni dirette.</p>
+            <h2 class="coverage-title">Siti web per ristoranti a Siena</h2>
+            <p class="coverage-text">Soluzioni rapide e senza stress tecnico per portare più clienti nei ristoranti di Siena.</p>
+            <h2 class="coverage-title">Siti web per ristoranti a Grosseto</h2>
+            <p class="coverage-text">Visibilità locale e prenotazioni via WhatsApp per ristoranti e agriturismi a Grosseto e provincia.</p>
+        </div>
+    </section>
+
+    <!-- Example Section -->
+<section id="esempio" class="example animate-on-scroll">
+    <div class="container">
+        <div class="example-content">
+            <div class="example-text">
+                <h2 class="section-title">Esempio del nostro lavoro</h2>
+                <h3 class="example-project-title">Ristorante Da Marco - Firenze</h3>
+                <p class="example-description">
+                    <strong>La sfida:</strong> Il Ristorante Da Marco aveva difficoltà a competere online e riceveva poche prenotazioni. <strong>La nostra soluzione:</strong> Abbiamo creato un sito web elegante e ottimizzato che trasforma visitatori in clienti, includendo:
+                </p>
+                <ul class="example-features">
+                    <li>Design responsive con gallery fotografica professionale</li>
+                    <li>Menu digitale facilmente aggiornabile</li>
+                    <li>Sistema di prenotazioni WhatsApp integrato</li>
+                    <li>Integrazione Google Maps e gestione recensioni attiva</li>
+                    <li>Ottimizzazione SEO locale per "ristorante Firenze centro"</li>
+                </ul>
+                <p class="example-result">
+                    <strong>Risultati ottenuti in 30 giorni:</strong> +40% di prenotazioni online, #1 su Google per "ristorante Firenze centro", e 300% di aumento del traffico web. ROI del 400% in un solo mese con un investimento di €1.200.
+                </p>
+                <div class="testimonial">
+                    <blockquote>
+                        "In una settimana avevo già il mio nuovo sito web professionale. Le prenotazioni sono raddoppiate e ora appariamo primi su Google. Investimento ripagato in meno di un mese! Servizio eccellente e risultati concreti."
+                    </blockquote>
+                    <cite>- Marco Benedetti, Proprietario Ristorante Da Marco ⭐⭐⭐⭐⭐</cite>
+                </div>
+            </div>
+            <div class="example-image">
+                <img 
+                    src="/images/marco.png" 
+                    alt="Sito web Ristorante Da Marco - Design responsive e professionale per ristorante Firenze" 
+                    class="thumb" 
+                    data-url="/Examples/marco.html" 
+                />
+                <p class="image-caption">Clicca qui per visitare il sito dal vivo → Vuoi risultati simili? <a href="#contatti">Richiedi preventivo gratuito</a> o <a href="https://wa.me/+393123456789">scrivici su WhatsApp</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- HTML -->
+<section id="examples" class="examples-section">
+  <h2 class="section-title">Esempi di siti realizzati</h2>
+  <p class="examples-subtitle">Scopri lo stile e la qualità dei siti web che realizziamo per ristoranti, agriturismi e B&B in Toscana.</p>
+
+  <div class="examples-grid">
+    <img src="/images/bellav.png" alt="Ristorante Bella Vista" class="thumb" data-url="/Examples/BellaV.html" />
+    <img src="/images/verde.png" alt="Agriturismo Verde" class="thumb" data-url="/Examples/Verde.html" />
+    <img src="/images/sereno.png" alt="Borgo Sereno" class="thumb" data-url="/Examples/sereno.html" />
+  </div>
+
+  <!-- Finestra popup per anteprima -->
+  <div id="iframePopup" class="popup hidden">
+    <div class="popup-content">
+      <button class="popup-close" aria-label="Chiudi anteprima">&times;</button>
+      <iframe id="previewFrame" class="preview-frame" src=""></iframe>
+    </div>
+  </div>
+</section>
+
+    <!-- About Section -->
+<section id="chi-siamo" class="about animate-on-scroll">
+    <div class="container">
+        <div class="about-content">
+            <h2 class="section-title">Chi siamo</h2>
+            <div class="about-text">
+                <p>
+                    Siamo un team specializzato italo-olandese con oltre 5 anni di esperienza nel settore digitale per la ristorazione italiana. 
+                    Combiniamo expertise tecnica internazionale con la conoscenza approfondita del mercato dell'ospitalità italiana e delle sue sfide uniche.
+                </p>
+                <p>
+                    La nostra missione è trasformare ristoranti, agriturismi e B&B in leader digitali locali, 
+                    creando soluzioni web strategiche che generano prenotazioni concrete e aumentano la visibilità su Google.
+                </p>
+            </div>
+            <div class="about-stats">
+                <div class="stat">
+                    <div class="stat-number">35+</div>
+                    <div class="stat-label">Ristoranti in Toscana e Lazio</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">7 giorni</div>
+                    <div class="stat-label">Tempo medio di lancio</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">+150%</div>
+                    <div class="stat-label">Aumento medio prenotazioni</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section animate-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Domande Frequenti</h2>
+            <p class="faq-subtitle">Le risposte alle domande più comuni sui nostri servizi per ristoranti in Toscana</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Quanto tempo ci vuole per vedere risultati concreti?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I primi risultati sono visibili entro 7-14 giorni. Il tuo sito sarà online e ottimizzato per Google entro una settimana, mentre le prenotazioni via WhatsApp iniziano tipicamente dalla seconda settimana. Risultati significativi (+40% prenotazioni) si vedono entro 30 giorni, come dimostrato dal caso Da Marco.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Il vostro servizio funziona per ristoranti piccoli in città toscane come Volterra o San Gimignano?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Assolutamente sì! Anzi, i ristoranti in città più piccole spesso ottengono risultati ancora migliori perché c'è meno concorrenza online. Abbiamo aiutato ristoranti a Volterra, Montalcino, Castiglione della Pescaia e molte altre città toscane a diventare #1 su Google per la loro zona.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Cosa succede se il mio ristorante ha già un sito web?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Possiamo migrare i contenuti esistenti oppure ottimizzare quello che hai già con il nostro pacchetto "Solo Visibilità" (€249). Analizziamo sempre gratuitamente la situazione attuale e ti consigliamo l'approccio migliore per il tuo caso specifico.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Come funziona il sistema di prenotazioni WhatsApp?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Integriamo pulsanti WhatsApp strategici nel tuo sito con messaggi precompilati. Quando un cliente clicca "Prenota", si apre WhatsApp con un messaggio già pronto tipo: "Ciao! Vorrei prenotare per 4 persone sabato sera alle 20:00". Semplice per il cliente, immediato per te.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Sono inclusi aggiornamenti e manutenzione?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sì! Il primo anno include hosting, manutenzione, aggiornamenti di sicurezza e supporto tecnico. Puoi anche richiedere modifiche minori (cambio orari, prezzi menu, foto) senza costi aggiuntivi. Dal secondo anno il mantenimento costa solo €99/anno.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Funziona anche per agriturismi e B&B in Maremma o Chianti?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Certamente! I nostri servizi sono specificamente progettati per tutto il settore dell'ospitalità toscana: ristoranti, agriturismi, B&B, trattorie. Adattiamo la strategia SEO alle keywords turistiche specifiche delle zone del Chianti, Maremma, Val d'Orcia e costa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Contact Section -->
+<section id="contatto" class="contact animate-on-scroll">
+    <div class="container">
+        <h2 class="section-title">Contattaci</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Più prenotazioni e clienti locali per la tua attività</h3>
+                <p>Rispondiamo entro 24 ore con un piano chiaro per aumentare prenotazioni, chiamate e clienti locali.</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:info@visibilitalocale.it" class="contact-value">info@visibilitalocale.it</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.670.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.520.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.893 3.106"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">WhatsApp</span>
+                            <a href="https://wa.me/+393123456789" class="contact-value" target="_blank" rel="noopener" onclick="trackPhoneCall()">+39 312 345 6789</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="https://wa.me/+393123456789" class="cta-button secondary" target="_blank" rel="noopener" onclick="trackWhatsAppClick('contact-info')">
+                    <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.670.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.520.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.893 3.106"/>
+                    </svg>
+                    Parla con noi su WhatsApp
+                </a>
+            </div>
+            
+            <!-- NIEUW EMAIL FORMULIER -->
+            <form id="contactForm" class="contact-form">
+                <h3>Preferisci l’email? Scrivici qui</h3>
+                
+                <!-- Success/Error Messages -->
+                <div id="formMessage" class="form-message" style="display: none;"></div>
+                
+                <div class="form-group">
+                    <label for="nome">Nome *</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                
+                <div class="form-group">
+                    <label for="tipo-attivita">Tipo di attività *</label>
+                    <select id="tipo-attivita" name="tipo_attivita" required>
+                        <option value="">Seleziona...</option>
+                        <option value="ristorante">Ristorante</option>
+                        <option value="pizzeria">Pizzeria</option>
+                        <option value="trattoria">Trattoria</option>
+                        <option value="agriturismo">Agriturismo</option>
+                        <option value="bed-breakfast">Bed & Breakfast</option>
+                        <option value="hotel">Hotel</option>
+                        <option value="altro">Altro</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="messaggio">Messaggio</label>
+                    <textarea id="messaggio" name="messaggio" rows="4" placeholder="Es: Il mio ristorante ha poche prenotazioni online e non appare su Google quando cercano 'ristorante [mia città]'. Vorrei aumentare la visibilità..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button" id="submitBtn">
+                    <span class="btn-text">📧 Invia la richiesta</span>
+                    <span class="btn-loading" style="display: none;">
+                        <svg class="loading-spinner" viewBox="0 0 24 24" style="width: 20px; height: 20px; margin-right: 8px;">
+                            <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="31.416" stroke-dashoffset="31.416">
+                                <animate attributeName="stroke-dasharray" dur="2s" values="0 31.416;15.708 15.708;0 31.416" repeatCount="indefinite"/>
+                                <animate attributeName="stroke-dashoffset" dur="2s" values="0;-15.708;-31.416" repeatCount="indefinite"/>
+                            </circle>
+                        </svg>
+                        Invio in corso...
+                    </span>
+                </button>
+                
+                <p style="font-size: 0.8rem; color: #888; text-align: center; margin-top: 0.5rem;">🔒 I tuoi dati sono protetti - Non condividiamo mai le informazioni</p>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">Cosa dicono i nostri clienti</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">
+                        <span>★★★★★</span>
+                    </div>
+                    <blockquote class="review-text">
+                        "Incredibile! In soli due giorni avevo il mio nuovo sito web e le prenotazioni sono triplicate. Il team di Visibilità Locale sa davvero come far crescere un ristorante online. Consigliatissimo!"
+                    </blockquote>
+                    <div class="review-author">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjUiIGN5PSIyNSIgcj0iMjUiIGZpbGw9IiNFMjcyNUIiLz4KPHN2ZyB4PSIxNSIgeT0iMTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTIwIDIxdi0yYTQgNCAwIDAgMC00LTRIMHY0YTQgNCAwIDAgMCA0IDRoMTJ6IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPgo8Y2lyY2xlIGN4PSIxMiIgY3k9IjciIHI9IjQiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo8L3N2Zz4=" alt="Foto cliente" class="review-avatar">
+                        <div class="review-details">
+                            <cite class="review-name">Sofia Rossi</cite>
+                            <span class="review-business">Trattoria Nonna Rosa, Siena</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Visibilità Locale</h3>
+                    <p>Siti web professionali per la ristorazione italiana</p>
+                    <p class="footer-coverage">Lavoriamo con ristoranti in Firenze, Siena, Pisa, Grosseto e provincia.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#servizi">Servizi</a>
+                    <a href="#esempio">Esempio</a>
+                    <a href="#chi-siamo">Chi siamo</a>
+                    <a href="#contatto">Contatto</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Visibilità Locale. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="floating-whatsapp hidden" id="floatingWhatsapp">
+      <a href="https://wa.me/+393123456789" target="_blank" rel="noopener" aria-label="Parla con noi su WhatsApp" onclick="trackWhatsAppClick('floating')">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" width="40" height="40">
+      </a>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
